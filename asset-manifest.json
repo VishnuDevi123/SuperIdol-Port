@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/SuperIdol-port/static/css/main.ed208b28.css",
+    "main.js": "/SuperIdol-port/static/js/main.d500b13f.js",
+    "static/media/matplotlib.svg": "/SuperIdol-port/static/media/matplotlib.f810802c858906a4844e0e9e9434a7c8.svg",
+    "static/media/scikit-learn.svg": "/SuperIdol-port/static/media/scikit-learn.2144585f29101192bb1f15cb8d47d546.svg",
+    "static/media/postman.svg": "/SuperIdol-port/static/media/postman.e65afafee644ce9fe8a727d01b403189.svg",
+    "static/media/aws-2.svg": "/SuperIdol-port/static/media/aws-2.1baaa078f947505c36dc8ee7595f91da.svg",
+    "static/media/pandas.svg": "/SuperIdol-port/static/media/pandas.9cacd0fe6b24d1d84deb8340430a7cdc.svg",
+    "static/media/python.svg": "/SuperIdol-port/static/media/python.439dd3d27dbba23fa07acb94633c7a7d.svg",
+    "static/media/nodejs.svg": "/SuperIdol-port/static/media/nodejs.4f3c72c16844c2ae308bed34e6b242f9.svg",
+    "static/media/ninja.svg": "/SuperIdol-port/static/media/ninja.84599c4c4b4435fb3de6ad4c583a14a4.svg",
+    "static/media/reactjs.svg": "/SuperIdol-port/static/media/reactjs.6c1d44b8c59f0f72ff199a54ceed774c.svg",
+    "static/media/mongodb.svg": "/SuperIdol-port/static/media/mongodb.1aca075d5cce0819fea7ea0902d94ce4.svg",
+    "static/media/c++.svg": "/SuperIdol-port/static/media/c++.67546ee38bb1ab4e7b6e2ed85b80f2fb.svg",
+    "static/media/typescript.svg": "/SuperIdol-port/static/media/typescript.32fb130a1a03eac5cd3d509d5b96f188.svg",
+    "static/media/pytorch.svg": "/SuperIdol-port/static/media/pytorch.10ab8c6812b14da27c5321defe05a227.svg",
+    "static/media/linkedin.svg": "/SuperIdol-port/static/media/linkedin.fb14601f43ff4e1a61bbd38cde8cbca2.svg",
+    "index.html": "/SuperIdol-port/index.html",
+    "static/media/github.svg": "/SuperIdol-port/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
+    "static/media/numpy.svg": "/SuperIdol-port/static/media/numpy.27e847a90ad601dcdb83800a8587430f.svg",
+    "static/media/external-link.svg": "/SuperIdol-port/static/media/external-link.eb94cbee470f12f999745563467be8dd.svg",
+    "static/media/tailwind.svg": "/SuperIdol-port/static/media/tailwind.315d0ac2a2708d5f06972906113dfbf1.svg",
+    "static/media/ttt.svg": "/SuperIdol-port/static/media/ttt.84a4db00a79641b19fa7e3873b0f457b.svg",
+    "static/media/scipy.svg": "/SuperIdol-port/static/media/scipy.f0f9f1328ba226b3b75a42a9984e18dd.svg",
+    "static/media/css.svg": "/SuperIdol-port/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/html.svg": "/SuperIdol-port/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "main.ed208b28.css.map": "/SuperIdol-port/static/css/main.ed208b28.css.map",
+    "main.d500b13f.js.map": "/SuperIdol-port/static/js/main.d500b13f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed208b28.css",
+    "static/js/main.d500b13f.js"
+  ]
+}
