@@ -22,7 +22,7 @@ const About = () => {
           whileHover={{ scale: 2 , color: "#AA336A" }}
           transition={{ type: "spring", stiffness: 300 }}
         >
-          &lt;name&gt; Rudresh Bhandari &lt;/name&gt;
+          &lt;name&gt; Vishnu Vardhana Reddy Devi Reddy &lt;/name&gt;
         </motion.p>
         <br />
         <motion.p 
@@ -31,7 +31,7 @@ const About = () => {
           transition={{ type: "spring", stiffness: 300 }}
         >
           &lt;p&gt;
-          An aspiring software developer pursuing a Bachelor's degree in Computer Science at Arizona State University, I specialize in software engineering principles, data pipelines, and automated ETL processes. I am passionate about creating efficient, scalable solutions. My experience includes working as Software Developer and Technology Consultant @ ASU
+          An aspiring software developer pursuing a Bachelor's degree in Computer Science at Arizona State University. I specialize in software engineering principles, data pipelines, and automated ETL processes. I am passionate about building efficient and scalable solutions. My experience includes working as a SWE Intern at Royal Enfield, a Grader and Peer Listener at ASU, and a Section Leader in Stanford University's Code in Place program.
           &lt;/p&gt;
         </motion.p>
         <br />
@@ -40,7 +40,7 @@ const About = () => {
           whileHover={{ scale: 1.05, color: "#AA336A" }}
           transition={{ type: "spring", stiffness: 300 }}
         >
-          &lt;interests&gt; Hiking , Hooping &lt;/interests&gt;
+          &lt;interests&gt; Working out, Hooping &lt;/interests&gt;
         </motion.p>
         <br />
         <motion.p 
@@ -48,7 +48,7 @@ const About = () => {
           whileHover={{ scale: 1.05, color: "#AA336A" }}
           transition={{ type: "spring", stiffness: 300 }}
         >
-          &lt;teams&gt; Niner-Gang , Lakers , ICT &lt;/teams&gt;
+          &lt;teams&gt; Lakers, Golden State Worriors &lt;/teams&gt;
         </motion.p>
       </motion.div>
     </div>

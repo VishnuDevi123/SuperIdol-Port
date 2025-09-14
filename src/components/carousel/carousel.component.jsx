@@ -6,24 +6,24 @@ import linkedIn from "../../assets/linkedin.svg"
 
 const references = [
   {
-    note: 'Mike , has been an exceptional team member, consistently exceeding expectations and delivering high-quality work.Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI, leveraging serverless architecture for scalability and cost-efficiency.',
-    name: 'Joshua R Thompson',
-    role: 'Manager at Tech Studio',
-    linkedinLink: 'https://www.linkedin.com/in/rudresh-bhandari-0817481aa/'
+    note: "Working with Vishnu has been an incredible experience. His attention to detail and dedication to solving complex problems made a huge difference in our project outcomes.",
+    name: "Rohit Chintakindi",
+    role: "Colleague",
+    linkedinLink: "https://www.linkedin.com/in/rohit-chintakindi/",
   },
   {
-    note: 'Mike is a dedicated and talented professional. His contributions have been invaluable to our projects.Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI, leveraging serverless architecture for scalability and cost-efficiency.',
-    name: 'John A',
-    role: 'Lead Developer',
-    linkedinLink: 'https://www.linkedin.com/in/akshatshrivastavainsead/'
+    note: "Vishnu is an exceptionally driven team member. He always brings fresh ideas to the table and follows through with well-executed solutions. A valuable contributor to any tech team.",
+    name: "Rudresh Bhandari",
+    role: "Colleague",
+    linkedinLink: "https://www.linkedin.com/in/rudresh-bhandari-0817481aa/",
   },
   {
-    note: 'Mike is a dedicated and talented professional. His contributions have been invaluable to our projects.Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI, leveraging serverless architecture for scalability and cost-efficiency.',
-    name: 'John EEE',
-    role: 'Lead Developer',
-    linkedinLink: 'https://www.linkedin.com/in/akshatshrivastavainsead/'
-  }
-]
+    note: "Vishnu consistently impressed me with his proactive attitude and technical sharpness. His ability to quickly learn new tools and apply them effectively was critical to our success.",
+    name: "Anuj Buch",
+    role: "Colleague",
+    linkedinLink: "https://www.linkedin.com/in/anuj-buch-059078262/",
+  },
+];
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

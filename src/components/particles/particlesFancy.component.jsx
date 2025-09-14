@@ -1,15 +1,15 @@
-import React, { useCallback } from 'react'
-import Particles from 'react-tsparticles'
-import { loadSlim } from 'tsparticles-slim'
+import React, { useCallback } from 'react';
+import Particles from 'react-tsparticles';
+import { loadSlim } from "tsparticles-slim";
 
-const ParticlesI = ({ backgroundColor }) => {
-  const particlesInit = useCallback(async engine => {
-    await loadSlim(engine)
-  }, [])
+const ParticlesI = ({ backgroundColor = "#1a1a1a" }) => {
+  const particlesInit = useCallback(async (engine) => {
+    await loadSlim(engine);
+  }, []);
 
-  const particlesLoaded = useCallback(async container => {
-    console.log(container)
-  }, [])
+  const particlesLoaded = useCallback(async (container) => {
+    console.log("Particles loaded:", container);
+  }, []);
 
   return (
     <div>
@@ -20,13 +20,16 @@ const ParticlesI = ({ backgroundColor }) => {
         options={{
           background: {
             color: {
-              value: backgroundColor // 🌌 Deep night blue
+              value: backgroundColor,
             },
           },
           fpsLimit: 240,
           interactivity: {
             events: {
-              onClick: { mode: "push" },
+              onClick: {
+                enable: true,
+                mode: "push",
+              },
               onHover: {
                 enable: true,
                 mode: "repulse",
@@ -34,23 +37,25 @@ const ParticlesI = ({ backgroundColor }) => {
               resize: true,
             },
             modes: {
-              push: { quantity: 4 },
+              push: {
+                quantity: 4,
+              },
               repulse: {
-                distance: 200,
-                duration: 0.4,
+                distance: 150,
+                duration: 0.6,
               },
             },
           },
           particles: {
             color: {
-              value: "#3dc0fc", // ✨ Light star blue
+              value: "#ff9ff3", // pink-tint particles
             },
             links: {
-              color: "#aac4ff", // 🔗 Faint glow
-              distance: 150,
+              color: "#feca57", // warm-yellow links
+              distance: 130,
               enable: true,
-              opacity: 0.4,
-              width: 1.6,
+              opacity: 0.6,
+              width: 1.2,
             },
             move: {
               direction: "none",
@@ -59,31 +64,31 @@ const ParticlesI = ({ backgroundColor }) => {
                 default: "bounce",
               },
               random: false,
-              speed: 1.8, // ⬇ Calmer speed
+              speed: 3.5, // increased speed
               straight: false,
             },
             number: {
               density: {
                 enable: true,
-                area: 800,
+                area: 700,
               },
-              value: 100,
+              value: 90,
             },
             opacity: {
-              value: 0.6,
+              value: 0.7,
             },
             shape: {
               type: "circle",
             },
             size: {
-              value: { min: 2.5, max: 4.5 },
+              value: { min: 1, max: 4 },
             },
           },
           detectRetina: true,
         }}
       />
     </div>
-  )
-}
+  );
+};
 
-export default ParticlesI
+export default ParticlesI;
